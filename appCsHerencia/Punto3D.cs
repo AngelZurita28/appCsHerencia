@@ -28,10 +28,11 @@ namespace appHerencia
             double dx = x - p.x;
             double dy = y - p.y;
             double dz = z - p.z;
-            double cdx = Math.Pow(dx, 2);
+            /*double cdx = Math.Pow(dx, 2);
             double cdy = Math.Pow(dy, 2);
-            double cdz = Math.Pow(dz, 2);
-            d = Math.Sqrt(cdx + cdy + cdz);
+            double cdz = Math.Pow(dz, 2); */
+            //d = Math.Sqrt(cdx + cdy + cdz);
+            d = Math.Sqrt(Math.Pow(dx, 2) + Math.Pow(dy, 2) + Math.Pow(dz, 2));
 
             return d;
         }
