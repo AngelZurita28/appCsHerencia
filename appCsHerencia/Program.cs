@@ -7,15 +7,23 @@ namespace appHerencia
         static void Main(string[] args)
         {
             /*Punto2D a;
-            a = new Punto2D(98, 76);
+            a = new Punto2D(-1.45, -2.88);
             Console.WriteLine(a.ToString());
 
-            Punto a2;
-            a2 = new Punto(5.99);*/
+            Punto2D b;
+            b = new Punto2D(3.55, 9.02);
+            Console.WriteLine(b.ToString()); */
 
-            Punto3D a3;
-            a3 = new Punto3D(8, 7, 9);
-            Console.WriteLine(a3.ToString());
+            Punto3D a;
+            a = new Punto3D(2, 2, 4);
+            Console.WriteLine(a.ToString());
+
+            Punto3D b;
+            b = new Punto3D(3, 3, 7);
+            Console.WriteLine(b.ToString());
+
+            double d = a.Distancia(b);
+            Console.WriteLine("Distancia " + d);
 
             Console.ReadKey();
 
